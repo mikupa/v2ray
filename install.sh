@@ -15,7 +15,7 @@ cmd="apt-get"
 sys_bit=$(uname -m)
 
 if [[ $sys_bit == "i386" || $sys_bit == "armv7l" ]]; then
-	v2ray_bit="32"
+	v2ray_bit="arm"
 elif [[ $sys_bit == "x86_64" ]]; then
 	v2ray_bit="64"
 else
